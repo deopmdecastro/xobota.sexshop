@@ -12,6 +12,15 @@
 
     }
 
+
+    .navbar-brand img {
+        width: 10rem;
+      }
+      
+      .navbar-brand source {
+        width: 10rem;
+      }
+
     .custom_nav-container {
         flex-direction: row;
     }
@@ -99,8 +108,7 @@
     .info_section {
        /* margin: 0 25px 25px; */
     }
-
-
+   
 }
 
 @media (max-width: 576px) {

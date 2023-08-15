@@ -276,7 +276,7 @@ a:focus {
 }
 
 .slider_section .img-box img {
-  width: 275px;
+  width: 584px;
 }
 
 .slider_section .detail-box {
@@ -293,9 +293,9 @@ a:focus {
 .slider_section .detail-box a {
   display: inline-block;
   padding: 10px 40px;
-  background-color: #db4566;
+  background-color: #FF629A;
   color: #ffffff;
-  border: 1px solid #db4566;
+  border: 1px solid #FF629A;
   border-radius: 5px;
   -webkit-transition: all .3s;
   transition: all .3s;
@@ -305,7 +305,7 @@ a:focus {
 
 .slider_section .detail-box a:hover {
   background-color: transparent;
-  color: #db4566;
+  color: #ffffff;
 }
 
 .slider_section .carousel_btn-box {
