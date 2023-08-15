@@ -69,7 +69,8 @@ body {
 
 #navbarSupportedContent {
   width: 100%;
-  background-color: #f9ece6;
+  background: rgb(255,98,154);
+  background: linear-gradient(120deg, rgba(255,98,154,1) 0%, rgba(255,156,185,1) 100%);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -80,7 +81,7 @@ body {
 #navbarSupportedContent.innerpage_navbar {
   background-color: white;
   border-radius: 10px;
-  -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0 0 3px 0 rgba(255, 255, 255, 0.25);
           box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.25);
 }
 
@@ -90,20 +91,21 @@ body {
 
 #navbarSupportedContent .navbar-nav .nav-link {
   padding: 5px 25px;
-  color: #514f4f;
+  color: #ffffff;
   text-align: center;
   text-transform: uppercase;
   border-radius: 5px;
 }
 
 #navbarSupportedContent .nav-item.active .nav-link {
-  background-color: #ffffff;
+  background: transparent;
 }
 
 a,
 a:hover,
 a:focus {
   text-decoration: none;
+    color: #ffffff;
 }
 
 a:hover,
@@ -229,7 +231,7 @@ a:focus {
 
 .user_option a {
   margin-right: 25px;
-  color: #000000;
+  color: #ffffff;
 }
 
 .user_option a span {
