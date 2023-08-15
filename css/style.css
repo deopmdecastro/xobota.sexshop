@@ -143,6 +143,10 @@ a:focus {
   width: 6rem;
 }
 
+.navbar-brand source {
+  width: 10rem;
+}
+
 .custom_nav-container .nav_search-btn {
   padding: 0;
   border: none;
