@@ -813,7 +813,7 @@ a:focus {
 }
 
 .info_section p {
-  color: #cbc9c9;
+  color: #ffffff;
 }
 
 .info_section .info_link-box a {
@@ -837,7 +837,7 @@ a:focus {
 }
 
 .info_section .info_link-box a span {
-  color: #cbc9c9;
+  color: #ffffff;
 }
 
 .info_section .info_link-box a:hover span {
@@ -855,12 +855,12 @@ a:focus {
   padding: 20px 0;
   margin: 0 auto;
   text-align: center;
-  border-top: 1.5px solid #eeeeee;
+  border-top: 1.5px solid #ffffff;
   width: 80%;
 }
 
 .footer_section a {
-  color: #cbc9c9;
+  color: #ffffff;
 }
 
 .footer_section img {
