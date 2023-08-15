@@ -806,6 +806,17 @@ a:focus {
   border-radius: 5px;
 }
 
+.info_section .info_form form button:hover {
+  padding: 8px 35px;
+  outline: none;
+  border: 1px solid #FF629A;
+  color: #FF629A;
+  background: transparent;
+  margin-top: 15px;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
 .info_section .row > div {
   margin-top: 25px;
 }
