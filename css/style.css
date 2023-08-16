@@ -247,6 +247,54 @@ a:focus {
 }
 
 /*end header section*/
+
+.bnt-comprar-carrinho    {
+  margin-top: 22px;
+}
+
+.bnt-comprar-carrinho a   {
+  color: #fefefe;
+  padding: 25px;
+  border-radius:5px;
+  border: none;
+  margin-left: 10px;
+}
+
+.bnt-comprar-carrinho .bnt-comprar   {
+  padding: 13px 19px;
+  background-color: #63328E;
+  color: #ffffff;
+  border: 1px solid #63328E;
+  border-radius: 5px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  margin-left: 0px;
+}
+
+
+.bnt-comprar-carrinho .bnt-comprar:hover   {
+  background-color: transparent;
+  color: #63328E;
+}
+
+.bnt-comprar-carrinho .bnt-carrinho  {
+  padding: 13px 19px;
+  background-color: #FF629A;
+  color: #ffffff;
+  border: 1px solid #FF629A;
+  border-radius: 5px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  margin-left: 10px;
+}
+
+.bnt-comprar-carrinho .bnt-carrinho:hover   {
+  background-color: transparent;
+  color: #FF629A;
+}
+
+
+
 .slider_section .slider_container {
   color: #fefefe;
   background-color: #000000;
@@ -880,31 +928,137 @@ a:focus {
 
 /* end info section */
 /* footer section*/
-.footer_section {
-  margin-top: 45px;
-  font-weight: 500;
-}
+/* Reset some default styles */
 
-.footer_section p {
-  padding: 20px 0;
-  margin: 0 auto;
+/* Styling for the footer */
+footer {
+  background-color: #63328E;
+  padding: 20px;
   text-align: center;
-  border-top: 1.5px solid #ffffff;
-  width: 80%;
 }
 
-.footer_section a {
+footer hr {
+  background-color: #ffffff;
+  padding: 0.8px;
+  text-align: center;
+}
+
+footer ::placeholder {
+ color: #ffffff;
+ font-weight: 400;
+}
+
+footer a:hover {
+  color: #FF629A;
+}
+
+footer a:active {
+  color: #FF629A;
+}
+
+footer a:after {
+  content: "";
+  color: #FF629A;
+}
+
+.social-icons {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.social-icons img {
+  width: 40px;
+}
+
+.icon-link {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.contact-info {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  margin-right: 20px;
+  text-decoration: none;
   color: #ffffff;
 }
 
-.footer_section img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 7rem;
-  margin: auto;
-  margin-bottom: 20px;
+.copyright a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #ffffff;
 }
+
+.copyright a:hover {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #FF629A;
+}
+
+.copyright a:active {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #FF629A;
+}
+
+footer form h4 {
+  color: #ffffff;
+}
+
+.logo {
+  margin-bottom: 25px;
+}
+
+.logo img {
+  margin-top: 20px;
+  max-width: 100px;
+  height: auto;
+}
+
+/* Center-aligning the content */
+.footer-links, .logo {
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Copyright text */
+.copyright {
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+form input {
+  border: 1px solid #ffffff;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  padding-left: 25px;
+  background-color: transparent;
+  outline: none;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+form button {
+  margin-top: 10px;
+  padding: 12px 45px;
+  background-color: #FF629A;
+  color: #ffffff;
+  border: 1px solid #FF629A;
+  border-radius: 5px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  color: #fff;
+  margin-left: 10px;
+}
+
+form button:hover {
+  background-color: transparent;
+  color: #ffffff;
+}
+
 
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
