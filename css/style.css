@@ -928,7 +928,154 @@ a:focus {
 
 /* end info section */
 /* footer section*/
-/* Reset some default styles */
+/* carrinho */
+
+.img-carrinho img {
+ width: 100px;
+}
+
+#quantidade {
+  text-align: center;
+  margin-top: 0px;
+}
+
+.quantity-input {
+  color: #63328E;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.cart-container {
+  border-radius: 10px;
+  margin: 20px 44px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.coupon-section {
+  display: inline;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.coupon-section input{
+  width: 22%;
+  border: 1px solid #919191;
+  margin-bottom: 25px;
+  padding: 10px  25px;
+  background-color: transparent;
+  outline: none;
+  color: #101010;
+  border-radius: 5px;
+}
+
+.apply-coupon-button {
+  padding: 10px 20px;
+  background-color: #FF629A;
+  color: #ffffff;
+  border: 1px solid #FF629A;
+  border-radius: 0;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.update-cart-button {
+  padding: 10px 20px;
+  background-color: #63328E;
+  color: #ffffff;
+  border: 1px solid #63328E;
+  border-radius: 0;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.apply-coupon-button:hover {
+  background-color: transparent;
+  color: #FF629A;
+  border-radius: 5px;
+}
+
+.update-cart-button:hover {
+  background-color: transparent;
+  color: #63328E;
+  border-radius: 5px;
+}
+
+.total-section {
+  margin-bottom: 20px;
+}
+
+.total-table {
+  width: 22%;
+  border-collapse: collapse;
+}
+
+.total-table td {
+  padding: 5px 10px;
+  text-align: right;
+}
+
+.total-table td:first-child {
+  text-align: left;
+}
+
+.checkout-button {
+  padding: 10px 17px;
+  background-color: #63328E;
+  color: #ffffff;
+  border: 1px solid #63328E;
+  border-radius: 0;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.checkout-button:hover {
+  background-color: transparent;
+  color: #63328E;
+  border-radius: 5px;
+}
+
+.remove-button {
+  background-color: #e74c3c;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.remove-button:hover {
+  background-color: #c0392b;
+}
+
+/* end carrinho */
 
 /* Styling for the footer */
 footer {
@@ -939,7 +1086,7 @@ footer {
 
 footer hr {
   background-color: #ffffff;
-  padding: 0.8px;
+  padding: 0.5px;
   text-align: center;
 }
 

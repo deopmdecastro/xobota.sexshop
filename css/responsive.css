@@ -12,6 +12,12 @@
 
     }
 
+    
+
+    th, td {
+        padding: 5px;
+        text-align: center;
+      }
 
     .navbar-brand img {
         width: 10rem;
@@ -78,7 +84,18 @@
         padding: 0 25px;
     }
 
-    
+    th, td {
+        padding: 5px;
+        text-align: center;
+      }
+
+      .cart-container {
+        border-radius: 10px;
+        margin: 20px 22px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
 
     .slider_section .img-box {
         margin-bottom: 45px;
@@ -134,6 +151,19 @@
         padding-left: 25px;
         padding-right: 25px;
     }
+    th, td {
+        padding: 5px;
+        text-align: center;
+      }
+
+      .cart-container {
+        border-radius: 10px;
+        margin: 20px 22px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
 }
 
 @media (max-width: 480px) {
@@ -142,6 +172,19 @@
     .gift_section .detail-box {
         padding: 0 5px;
     }
+    th, td {
+        padding: 5px;
+        text-align: center;
+      }
+
+      .cart-container {
+        border-radius: 10px;
+        margin: 20px 22px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
 }
 
 @media (max-width: 420px) {}
