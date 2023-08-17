@@ -178,12 +178,29 @@
       }
 
       .cart-container {
+        display: none;
+    }
+    .cart-1-container {
         border-radius: 10px;
-        margin: 20px 22px;
+        margin: 20px 20px;
         padding: 20px;
         border: 1px solid #ccc;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        display: block;
     }
+
+    .update-cart-button {
+        margin-bottom: 10px;
+        padding: 10px 20px;
+        background-color: #63328E;
+        color: #ffffff;
+        border: 1px solid #63328E;
+        border-radius: 0;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+        border-radius: 5px;
+        cursor: pointer;
+      }
 
 }
 
