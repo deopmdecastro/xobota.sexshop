@@ -79,6 +79,97 @@
     }
 }
 
+@media (max-width: 828px) {
+    .user_option {
+        justify-content: center;
+        margin-left: 0;
+        margin-top: 10px;
+
+    }
+
+    th, td {
+        padding: 5px;
+        text-align: center;
+      }
+
+    .navbar-brand img {
+        width: 10rem;
+      }
+      
+      .navbar-brand source {
+        width: 10rem;
+      }
+
+    .custom_nav-container {
+        flex-direction: row;
+    }
+
+    .custom_nav-container .navbar-nav {
+        align-items: center;
+    }
+
+    #navbarSupportedContent .navbar-nav .nav-link {
+        margin: 5px 0;
+    }
+
+    .slider_section .detail-box {
+        padding-left: 0;
+    }
+
+    .slider_section .detail-box h1 {
+        font-size: 3rem;
+    }
+
+    .slider_section .img-box {
+        padding: 0;
+    }
+
+    .saving_section .row {
+        flex-direction: column-reverse;
+    }
+
+    .saving_section .detail-box {
+
+        margin-bottom: 30px;
+    }
+
+    .client_section .box {
+        margin: 15px 25px;
+    }
+
+    .client_section .carousel_btn-box {
+        display: flex;
+        justify-content: center;
+        margin-top: 45px;
+    }
+
+    .client_section .carousel-control-prev,
+    .client_section .carousel-control-next {
+        position: unset;
+        margin: 0 2.5px;
+        width: 45px;
+        height: 45px;
+    }
+
+    .coupon-section input{
+        width: 50%;
+      }
+
+      .checkout-button {
+        padding: 10px 56px;
+      }
+
+      .apply-coupon-button {
+        padding: 10px 32px;
+    }
+
+    .update-cart-button {
+        padding: 10px 22px;
+      }
+
+
+}
+
 @media (max-width: 768px) {
     .hero_area {
         padding: 0 25px;
@@ -191,7 +282,7 @@
 
     .update-cart-button {
         margin-bottom: 10px;
-        padding: 10px 12px;
+        padding: 10px 22px;
         background-color: #63328E;
         color: #ffffff;
         border: 1px solid #63328E;
@@ -207,11 +298,11 @@
       }
 
       .checkout-button {
-        padding: 10px 40px;
+        padding: 10px 56px;
       }
 
       .apply-coupon-button {
-        padding: 10px 24px;
+        padding: 10px 32px;
     }
 
 }
