@@ -151,21 +151,33 @@
         height: 45px;
     }
 
-    .coupon-section input{
-        width: 50%;
+    .update-cart-button {
+        margin-bottom: 10px;
+        width: 100%;
+        padding: 10px 27px;
+        background-color: #63328E;
+        color: #ffffff;
+        border: 1px solid #63328E;
+        border-radius: 0;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      .coupon-section input{
+        width: 49%;
       }
 
       .checkout-button {
-        padding: 10px 56px;
+        width: 100%;
+    padding: 10px 27px;
       }
 
       .apply-coupon-button {
-        padding: 10px 32px;
+        padding: 10px 18px;
+    margin-left: 5px;
     }
-
-    .update-cart-button {
-        padding: 10px 22px;
-      }
 
 
 }
